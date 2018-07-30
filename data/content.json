@@ -1,0 +1,12 @@
+{
+	"projects": [
+	{
+		"name": "project_one",
+		"date": 2017
+	},
+	{
+		"name": "project_two",
+		"date": 2018
+	}
+	]
+}
