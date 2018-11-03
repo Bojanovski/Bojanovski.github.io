@@ -2,13 +2,17 @@
   <head>
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
     
-	<title>Sample Application</title>
-	
+	<title>Bojan Lovrovic - Software Engineer</title>
+
+	<!-- Add the page icon -->	
+	<link rel="icon" href="data/page_icon.png">
 	<!-- Add icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Add bootstrap -->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- Add my CSS -->
+	<!-- Add the page bootstrap theme -->	
+	<link rel="stylesheet" type="text/css" href="darkly_theme.css">
+	<!-- Add my custom CSS -->
 	<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
 	
   </head>
@@ -16,42 +20,65 @@
   
 	<div class="container">
 		<div class="page-header">
-		<h1>work in progress..</h1>
+		<h1>Bojan Lovrovic - Software Engineer</h1>
 		</div>
 		
-		<script src="script.js"></script>  
-	
-		<table border="0" cellpadding="10" wallpadding="10">
-		<tr>
-			<td>
-			<img src="data/profilePicture.png">
-			</td>
-			<td>
-				<div>
-					<h2>About</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-						when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						It has survived not only five centuries, but also the leap into electronic typesetting,
-						remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-						sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-						like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<div class="jumbotron">
+			
+			<script src="script.js"></script>  
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<img src="data/profilePicture.png" id="profile-pic"
+					class="img-responsive img-thumbnail"
+					alt="Profile Picture">
 				</div>
-			</td>
-		</tr>
-		</table>
-	
+				<div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+					<h2>About</h2>
+					<p>Starting my 'career' at the age of ten when I wrote my first program
+					in Logo I moved, driven by the burning desire to make a video game,
+					to C#. After I made a couple of games and game engines,
+					I switched to C++ which remains my primary language to this day.
+					Over the years, I completed my MS in computer science, worked as a
+					software engineer in game development and media production industry.
+					Currently, I work on low-level graphics programming and driver optimization.</p>
+				</div>
+			</div>
 		
-		<div>
-			<h2>Links</h2>
-			<a href="https://www.linkedin.com/in/bojan-lovrovic-4a8286132/" class="fa fa-linkedin"></a>
-			<a href="https://github.com/Bojanovski" class="fa fa-github"></a>
-			<a href="https://www.youtube.com/user/TheBojanovski" class="fa fa-youtube"></a>
-			<a href="https://twitter.com/BojanLovrovic" class="fa fa-twitter"></a>
+			<hr />
+		
+			<div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<h2>CV</h2>
+						<p>Here you can download my latest curriculum vitae.</p>
+						<a href="data/CV_without_contact_info.pdf"
+						class="btn-default btn-lg"
+						role="button" target="_blank">Download</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<h2>Contact</h2>
+						<p>If you require different contact details, please send me an email.</p>
+						<a href="mailto:bojanlovrovic@gmail.com"
+						class="btn-default btn-lg"
+						role="button">Email</a>
+					</div>
+				</div>
+			</div>
+			
+			<hr />
+			
+			<div>
+				<h2>Links</h2>
+				<a href="https://www.linkedin.com/in/bojan-lovrovic-4a8286132/" class="fa fa-linkedin"></a>
+				<a href="https://github.com/Bojanovski" class="fa fa-github"></a>
+				<a href="https://www.youtube.com/user/TheBojanovski" class="fa fa-youtube"></a>
+				<a href="https://twitter.com/BojanLovrovic" class="fa fa-twitter"></a>
+			</div>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		</div>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</div>
 	
   </body>
